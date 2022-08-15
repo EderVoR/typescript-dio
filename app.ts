@@ -8,6 +8,6 @@ function somaNumeros(numero1: number, numero2: number){
 
 if(button){
     button.addEventListener('click', () =>{
-        somaNumeros(Number(input1.value), Number(input2.value));
+        console.log(somaNumeros(Number(input1.value), Number(input2.value)));
     });
 }
